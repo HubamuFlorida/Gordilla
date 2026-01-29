@@ -1,0 +1,230 @@
+body {
+    font-family: 'Tahoma';
+    background-color: #BEE7FF; 
+}
+
+
+/*HEADER*/
+.first-title {
+    color: #1800AD; 
+    font-weight: bold;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 3px solid #1800AD; 
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-image: url(img/fondo_jumbotron.png);
+}
+
+.navbar-brand, 
+.nav-link {
+    font-weight: bold;
+    color: #1800AD;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: #DA07F4;
+}
+
+.navbar-collapse {
+    margin-top: 10px;
+}
+
+.navbar-brand img {
+    height: 90px;
+    width: 90px; 
+    display: block;
+}
+
+.navbar-toggler {
+    border-color: #1800AD; 
+    border-width: 2px;
+}
+
+/*JUMBOTRON*/
+.container-jumbotron {
+    background-color: #ffffff;
+    border: 2px solid #1800AD;
+    border-radius: 10px;         
+    padding: 20px;  
+    text-align: center;
+    color:#1800AD;
+    margin-top: 20px;
+    width: 80%;
+    margin: 20px auto;
+    background-image: url(img/fondo_jumbotron.png);
+}
+
+.image-jumbotron {
+    width: 10%;
+    height: 10%;
+    margin-right: 400px;
+}
+
+/*CARDS INICIO*/
+.card-text {
+    height: 100px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.card-body-home {
+    height: auto;
+    overflow: hidden;
+}
+
+.card-body-home p, 
+.card-body-home div {
+    text-align: justify;
+    padding-right: 3.5px;
+    padding-left: 3.5px;
+}
+
+/*CARDS PROYECTOS*/
+.card-title, .card-title-home {
+    color: #1800AD;
+    font-weight: bold;
+}
+
+.card-body {
+    height: 340px;
+    overflow: hidden;
+}
+
+.card-title:hover {
+    color: #DA07F4;
+    font-weight: bold;
+}
+
+.card-description {
+    overflow: hidden;
+}
+
+/*MODAL*/
+.modal-title {
+    color: #1800AD;
+    font-weight: bold;
+}
+
+.modal-body {
+    text-align: justify;
+}
+
+.modal-body h5 {
+    text-align: start;
+    font-weight: bold;
+
+}
+
+/*CARRUSEL*/
+.carousel-box {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    border: 3px solid #1800AD; 
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+
+/*FOOTER*/
+.custom-footer {
+    width: 100%;
+    background-color: #ffffff; 
+    border-top: 3px solid #1800AD; 
+    margin-top: 50px;
+    background-image: url(img/fondo_jumbotron.png);
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    min-height: 120px;
+}
+
+.footer-section {
+    justify-content: center;
+    padding: 15px;
+    border-right: 1px solid #1800AD; 
+}
+
+.section-mapa { 
+    width: 25%;
+    padding: 0;
+}
+
+.section-contact { 
+    width: 30%;
+    height: auto;
+    
+}
+
+.section-copyright {
+    width: 20%;
+}
+
+.section-redes { 
+    width: 15%;
+}
+
+.section-logo {
+    width: 10%;
+}
+
+.section-mapa iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+}
+
+.footer-title, 
+.footer-link, 
+.logo-footer {
+    color: #1800AD; 
+    font-weight: bold; 
+    text-decoration: none;
+    max-width: 100%;
+    text-align: center;
+}
+
+.footer-text-cop, 
+.contact-list li {
+    color: #1800AD;
+    font-size: 14px;
+    list-style: none;
+    max-width: 100%;
+}
+
+.contact-list {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-link:hover {
+    color: #DA07F4;
+}
+
+.logo-link img {
+    width: auto;
+    max-height: 100%;
+    max-width: 100%
+    
+}
+
+/*FORMULARIO*/
+.title-contact {
+    color: #1800AD; 
+    font-weight: bold;
+}
+
+
+
+
+

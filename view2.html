@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <header>
+            <nav class="navbar" style="justify-content: start">
+                <a class="navbar-brand">
+                    <img src="img/logo.png" alt="Logotipo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuHamburguer">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <h1 class="first-title mt-2 mb-2">PROYECTOS</h1>
+                <a class="language" href="view2Ingles.html">
+                    <img src="img/ingles.png" style="width: 30px; height: 20px;">
+                </a>
+                <div class="collapse navbar-collapse" id="menuHamburguer">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="view1.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="view2.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="view3.html">Contactame</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="carousel-box">
+                <div id="carruselProyectos" class="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carruselProyectos" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carruselProyectos" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carruselProyectos" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/carrusel1.png" class="d-block w-100 project-photo" alt="image1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carrusel2.png" class="d-block w-100 project-photo" alt="image2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carrusel3.png" class="d-block w-100 project-photo" alt="image3">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carruselProyectos"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carruselProyectos"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="row mt-4">
+            <div class="col-xl-3 offset-xl-3 col-md-3 offset-md-3 col-sm-12 offset-sm-3 mt-2">
+                <div class="card text-center border-secondary">
+                    <div class="card-body">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modal1">
+                            <h4 class="card-title">Proyecto<br>1</h4>
+                        </button>
+                        <p class="card-description">En este proyecto me enfrenté al problema de vender en internet: hay
+                            mucha competencia y los precios cambian todo el rato. Lo que hice fue crear un sistema que
+                            revisa automáticamente a qué precio están vendiendo los demás (usando herramientas de
+                            scraping y Keepa) para saber quién está ganando la venta o "BuyBox". Programé unas reglas
+                            básicas para que el sistema calcule mi precio ideal: baja el precio para ser competitivo,
+                            pero solo si sigo ganando más de 1€ de beneficio y mantengo un margen decente. Así conseguí
+                            automatizar una tarea que a mano sería imposible.</p>
+
+                        <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5">Proyecto 1</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5>Sistema Automatizado de Repricing y Análisis de BuyBox</h5>
+                                        <p class="modal-description">En este proyecto me enfrenté al problema de vender
+                                            en internet: hay mucha competencia y los precios cambian todo el rato. Lo
+                                            que hice fue crear un sistema que revisa automáticamente a qué precio están
+                                            vendiendo los demás (usando herramientas de scraping y Keepa) para saber
+                                            quién está ganando la venta o "BuyBox". Programé unas reglas básicas para
+                                            que el sistema calcule mi precio ideal: baja el precio para ser competitivo,
+                                            pero solo si sigo ganando más de 1€ de beneficio y mantengo un margen
+                                            decente. Así conseguí automatizar una tarea que a mano sería imposible.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-3 col-sm-12 mt-2">
+                <div class="card text-center border-secondary">
+                    <div class="card-body">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modal2">
+                            <h4 class="card-title">Proyecto<br>2</h4>
+                        </button>
+                        <p class="card-description">Me di cuenta de que vender solo por Amazon te come los beneficios
+                            por las comisiones, así que decidí montar una tienda propia desde cero. Me encargué de todo
+                            el proceso técnico: desde contratar el hosting y configurar el dominio, hasta instalar y
+                            personalizar un Prestashop. Lo más interesante fue que no lo dejé como una web aislada, sino
+                            que conecté el catálogo directamente con la base de datos de la empresa. Así, si cambiamos
+                            algo en el almacén, se actualiza en la web al momento. Fue mi forma de crear un canal de
+                            venta donde nosotros ponemos las reglas.</p>
+
+                        <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5">Proyecto 2</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5>Despliegue y Personalización de E-Commerce con Prestashop</h5>
+                                        <p class="modal-description">Me di cuenta de que vender solo por Amazon te come
+                                            los beneficios por las comisiones, así que decidí montar una tienda propia
+                                            desde cero. Me encargué de todo el proceso técnico: desde contratar el
+                                            hosting y configurar el dominio, hasta instalar y personalizar un
+                                            Prestashop. Lo más interesante fue que no lo dejé como una web aislada, sino
+                                            que conecté el catálogo directamente con la base de datos de la empresa.
+                                            Así, si cambiamos algo en el almacén, se actualiza en la web al momento. Fue
+                                            mi forma de crear un canal de venta donde nosotros ponemos las reglas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-xl-3 offset-xl-3 col-md-3 offset-md-3 col-sm-12 offset-sm-3 mt-2">
+                <div class="card text-center border-secondary">
+                    <div class="card-body">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modal3">
+                            <h4 class="card-title">Proyecto<br>3</h4>
+                        </button>
+                        <p class="card-description">Aquí quise optimizar los envíos porque vender fuera de España sale
+                            caro. Desarrollé una lógica para decidir automáticamente cómo enviar cada pedido. El sistema
+                            mira de dónde es el cliente (si es de Francia, Alemania, etc.) y cuánto cuesta el envío. Si
+                            sale más a cuenta que lo envíe Amazon (Fulfillment) pagando su tasa, se hace así; si es
+                            mejor enviarlo desde nuestro almacén (Seller), lo hacemos nosotros. Es básicamente un
+                            sistema de decisión para ahorrar costes logísticos y mejorar el margen de cada venta sin
+                            tener que pensarlo pedido a pedido.</p>
+
+                        <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal3" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5">Proyecto 3</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5>Algoritmo de Optimización Logística: Seller vs. Fulfillment</h5>
+                                        <p class="modal-description">Aquí quise optimizar los envíos porque vender fuera
+                                            de España sale caro. Desarrollé una lógica para decidir automáticamente cómo
+                                            enviar cada pedido. El sistema mira de dónde es el cliente (si es de
+                                            Francia, Alemania, etc.) y cuánto cuesta el envío. Si sale más a cuenta que
+                                            lo envíe Amazon (Fulfillment) pagando su tasa, se hace así; si es mejor
+                                            enviarlo desde nuestro almacén (Seller), lo hacemos nosotros. Es básicamente
+                                            un sistema de decisión para ahorrar costes logísticos y mejorar el margen de
+                                            cada venta sin tener que pensarlo pedido a pedido.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-3 col-sm-12 mt-2">
+                <div class="card text-center border-secondary">
+                    <div class="card-body">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modal4">
+                            <h4 class="card-title">Proyecto<br>4</h4>
+                        </button>
+                        <p class="card-description">Desarrollé una aplicación web completa para modernizar la gestión
+                            interna de mi comisión, la Falla Ripalda Sogueros, implementando un sistema de login seguro
+                            que distingue automáticamente entre perfiles de administrador y usuarios estándar. Para la
+                            directiva diseñé un panel de control funcional que permite buscar falleros y gestionar el
+                            censo mediante tablas de datos, mientras que para los miembros de la comisión creé un área
+                            personal visual con acceso directo a noticias y un calendario de eventos actualizado. El
+                            mayor reto fue asegurar una experiencia de usuario fluida en cualquier dispositivo,
+                            adaptando el diseño de interfaces complejas (como los listados de administración) para que
+                            fueran totalmente responsive y cómodas de usar tanto en pantallas de ordenador como en
+                            móviles y tablets.</p>
+
+                        <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="Modal4" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5">Proyecto 4</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5>Digitalización y Gestión Integral para Falla Ripalda Sogueros</h5>
+                                        <p class="modal-description">Desarrollé una aplicación web completa para
+                                            modernizar la gestión interna de mi comisión, la Falla Ripalda Sogueros,
+                                            implementando un sistema de login seguro que distingue automáticamente entre
+                                            perfiles de administrador y usuarios estándar. Para la directiva diseñé un
+                                            panel de control funcional que permite buscar falleros y gestionar el censo
+                                            mediante tablas de datos, mientras que para los miembros de la comisión creé
+                                            un área personal visual con acceso directo a noticias y un calendario de
+                                            eventos actualizado. El mayor reto fue asegurar una experiencia de usuario
+                                            fluida en cualquier dispositivo, adaptando el diseño de interfaces complejas
+                                            (como los listados de administración) para que fueran totalmente responsive
+                                            y cómodas de usar tanto en pantallas de ordenador como en móviles y tablets.
+                                        </p>
+                                        <iframe
+                                            src="https://floridauniversitaria-my.sharepoint.com/personal/hubamu_alumnatflorida_es/_layouts/15/embed.aspx?UniqueId=2c8ecaa2-ce2e-4921-b9bd-e01c79210add&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
+                                            width="465" height="360" frameborder="0" scrolling="no" allowfullscreen
+                                            title="Proyecto Falla.mp4"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="custom-footer">
+            <div class="footer-container">
+                <div class="footer-section section-mapa">
+                    <iframe
+                        src="https://floridauniversitaria-my.sharepoint.com/personal/hubamu_alumnatflorida_es/_layouts/15/embed.aspx?UniqueId=2c8ecaa2-ce2e-4921-b9bd-e01c79210add&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create"
+                        width="600" height="450" frameborder="0" scrolling="no" allowfullscreen
+                        title="Proyecto Falla.mp4"></iframe>
+                </div>
+
+                <div class="footer-section section-contact">
+                    <p class="footer-title">Información Contacto</p>
+                    <ul class="contact-list">
+                        <li>Teléfono: 675221041</li>
+                        <li>Dirección: Calle Carcagente, 14</li>
+                        <li>Email: hubamuniversitario@gmail.com</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section section-copyright text-center">
+                    <p class="footer-text-cop">© 2026 Hugo Balaguer.<br> Todos los derechos reservados.</p>
+                </div>
+
+                <div class="footer-section section-redes justify-content-center text-center">
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/" class="footer-link">
+                            <img src="img/insta.png" alt="">
+                        </a>
+                        <a href="https://es.linkedin.com" class="footer-link">
+                            <img src="img/linke.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section section-logo">
+                    <div class="logo-link">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
